@@ -1,7 +1,7 @@
 services:
 
   dev:
-    image: yoanbernabeu/symfony-dev-container:latest
+    image: ghcr.io/spomky/symfony-dev-container:latest
     command: sleep infinity
     volumes:
       - ../.:/workspace
