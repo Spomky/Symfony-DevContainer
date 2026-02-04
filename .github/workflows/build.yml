@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
-      -
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       -
@@ -26,5 +23,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: yoanbernabeu/symfony-dev-container:latest
-          platforms: linux/amd64,linux/arm64
+          tags: spomky/symfony-dev-container:latest

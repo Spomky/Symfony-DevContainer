@@ -28,7 +28,7 @@ By default, the containers forward the following ports:
 
 Symfony DevContainer comes with tree containers:
 
-- PHP 8.3 (from official Docker image php:8.3-cli) with
+- PHP 8.5 (from official Docker image php:8.5-cli) with
   - Composer
   - Symfony CLI
   - Some PHP extensions (e.g. xdebug, intl, pdo_pgsql)
